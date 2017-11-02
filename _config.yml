@@ -9,9 +9,9 @@ baseurl: ''
 author:
   name: 'Achmad Gozali'
   email: achmadg6@gmail.com
-#  facebook_username: joshgerdes
+  facebook_username: achmadgozali753
   github_username:  AchmadGozali8
-#  linkedin_username:  joshgerdes
+  linkedin_username:  achmad-gozali-32b840130
 
 defaults:
   -
