@@ -15,7 +15,7 @@ $(document).ready(function () {
     $('.panel-cover').addClass('panel-cover--collapsed')
   }
 
-  if (window.location.pathname !== '/' && window.location.pathname !== '/index.html') {
+  if (window.location.pathname !== 'achmadgozali8.github.io' && window.location.pathname !== 'achmadgozali8.github.ioindex.html') {
     $('.panel-cover').addClass('panel-cover--collapsed')
   }
 

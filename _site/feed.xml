@@ -3,10 +3,10 @@
   <channel>
     <title>Achmad Gozali</title>
     <description>Just buy me coffe, and your project absolutely done</description>
-    <link>///</link>
-    <atom:link href="///feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 02 Nov 2017 11:10:15 +0700</pubDate>
-    <lastBuildDate>Thu, 02 Nov 2017 11:10:15 +0700</lastBuildDate>
+    <link>achmadgozali8.github.io/</link>
+    <atom:link href="achmadgozali8.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Thu, 02 Nov 2017 11:12:49 +0700</pubDate>
+    <lastBuildDate>Thu, 02 Nov 2017 11:12:49 +0700</lastBuildDate>
     <generator>Jekyll v3.0.2</generator>
     
       <item>
@@ -29,8 +29,8 @@
 
 </description>
         <pubDate>Fri, 08 Jan 2016 22:04:23 +0700</pubDate>
-        <link>///2016/set-environment/</link>
-        <guid isPermaLink="true">///2016/set-environment/</guid>
+        <link>achmadgozali8.github.io/2016/set-environment/</link>
+        <guid isPermaLink="true">achmadgozali8.github.io/2016/set-environment/</guid>
         
         <category>jekyll</category>
         
@@ -59,8 +59,8 @@
 
 </description>
         <pubDate>Fri, 08 Jan 2016 22:04:23 +0700</pubDate>
-        <link>///2016/welcome-to-jekyll/</link>
-        <guid isPermaLink="true">///2016/welcome-to-jekyll/</guid>
+        <link>achmadgozali8.github.io/2016/welcome-to-jekyll/</link>
+        <guid isPermaLink="true">achmadgozali8.github.io/2016/welcome-to-jekyll/</guid>
         
         <category>jekyll</category>
         
