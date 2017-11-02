@@ -3,7 +3,7 @@
   
     
     <url>
-      <loc>https://achmadgozali8.github.io/2016/set-environment/</loc>
+      <loc>https://achmadgozali8.github.io//2016/set-environment/</loc>
       
         <lastmod>2016-01-08T22:04:23+07:00</lastmod>
       
@@ -18,7 +18,7 @@
   
     
     <url>
-      <loc>https://achmadgozali8.github.io/2016/welcome-to-jekyll/</loc>
+      <loc>https://achmadgozali8.github.io//2016/welcome-to-jekyll/</loc>
       
         <lastmod>2016-01-08T22:04:23+07:00</lastmod>
       
@@ -34,24 +34,9 @@
   
     
     <url>
-      <loc>https://achmadgozali8.github.io/categories/</loc>
+      <loc>https://achmadgozali8.github.io//categories/</loc>
       
-        <lastmod>2017-11-02T12:08:11+07:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>https://achmadgozali8.github.io/feed.xml</loc>
-      
-        <lastmod>2017-11-02T12:08:11+07:00</lastmod>
+        <lastmod>2017-11-02T12:09:24+07:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -64,9 +49,9 @@
   
     
     <url>
-      <loc>https://achmadgozali8.github.io/</loc>
+      <loc>https://achmadgozali8.github.io//feed.xml</loc>
       
-        <lastmod>2017-11-02T12:08:11+07:00</lastmod>
+        <lastmod>2017-11-02T12:09:24+07:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -79,9 +64,24 @@
   
     
     <url>
-      <loc>https://achmadgozali8.github.io/js/main.js</loc>
+      <loc>https://achmadgozali8.github.io//</loc>
       
-        <lastmod>2017-11-02T12:08:11+07:00</lastmod>
+        <lastmod>2017-11-02T12:09:24+07:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>https://achmadgozali8.github.io//js/main.js</loc>
+      
+        <lastmod>2017-11-02T12:09:24+07:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -96,9 +96,9 @@
   
     
     <url>
-      <loc>https://achmadgozali8.github.io/tags/</loc>
+      <loc>https://achmadgozali8.github.io//tags/</loc>
       
-        <lastmod>2017-11-02T12:08:11+07:00</lastmod>
+        <lastmod>2017-11-02T12:09:24+07:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
