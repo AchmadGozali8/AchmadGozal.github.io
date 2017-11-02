@@ -1,8 +1,8 @@
 # Site settings
 title: Achmad Gozali
 description: 'Just buy me coffe, and your project absolutely done'
-url: 'https://achmadgozali8.github.io/'
-baseurl: ''
+url: 'https://achmadgozali8.github.io'
+baseurl: '/'
 # google_analytics: 'UA-XXXXXX-X'
 # disqus_shortname: 'your-disqus-name'
 
