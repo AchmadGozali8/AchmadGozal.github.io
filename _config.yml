@@ -1,7 +1,6 @@
 # Site settings
 title: Achmad Gozali Ibrahim
-description: |+ 
-    Python Developer, Django Developer, Freelancer Programmer. 
+description: 'Python Developer, Django Developer, Freelancer Programmer.'
 url: 'https://achmadgozali8.github.io'
 baseurl: ''
 # google_analytics: 'UA-XXXXXX-X'
