@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+
+  <title>How To Fix AttributeError: 'NoneType' object has no attribute '_meta'</title>
+  <meta name="description" content="A few hours ago i spend my time for debugging cause a shit error above, and theeennn after a long time, finally i can solved this problem, with a simple decorator from django.utils.encoding lib, i just added python @python_2_unicode_compatible()
+
+">
+  <meta name="author" content="Achmad Gozali">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="How To Fix AttributeError: 'NoneType' object has no attribute '_meta'">
+  <meta name="twitter:description" content="A few hours ago i spend my time for debugging cause a shit error above, and theeennn after a long time, finally i can solved this problem, with a simple decorator from django.utils.encoding lib, i just added python @python_2_unicode_compatible()
+
+">
+  
+  <meta name="twitter:image" content="/images/favicons/favicon-194x194.png" />
+
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="How To Fix AttributeError: 'NoneType' object has no attribute '_meta'">
+  <meta property="og:description" content="A few hours ago i spend my time for debugging cause a shit error above, and theeennn after a long time, finally i can solved this problem, with a simple decorator from django.utils.encoding lib, i just added python @python_2_unicode_compatible()
+
+">
+  <meta property="og:image" content="/images/favicons/favicon-194x194.png" />
+
+  <link rel="apple-touch-icon" sizes="57x57" href="/images/favicons/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/images/favicons/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/images/favicons/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/images/favicons/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/images/favicons/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/images/favicons/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/images/favicons/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/images/favicons/apple-touch-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/favicons/apple-touch-icon-180x180.png">
+  <link rel="icon" type="image/png" href="/images/favicons/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="/images/favicons/favicon-194x194.png" sizes="194x194">
+  <link rel="icon" type="image/png" href="/images/favicons/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/png" href="/images/favicons/android-chrome-192x192.png" sizes="192x192">
+  <link rel="icon" type="image/png" href="/images/favicons/favicon-16x16.png" sizes="16x16">
+  <link rel="manifest" href="/images/favicons/manifest.json">
+  <link rel="shortcut icon" href="/images/favicons/favicon.ico">
+  <meta name="msapplication-TileColor" content="#ffc40d">
+  <meta name="msapplication-TileImage" content="/images/favicons/mstile-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+  
+  <link rel="stylesheet" href="/css/main.css?1509674939893829928">
+  <link rel="canonical" href="http://localhost:4000/2017/How-To-Fix-NoneType-object-has-no-attribute-_meta/">
+  <link rel="alternate" type="application/rss+xml" title="Achmad Gozali Ibrahim" href="/feed.xml">
+</head>
+
+
+  <body>
+    <span class="mobile btn-mobile-menu">
+  <i class="icon icon-list btn-mobile-menu__icon"></i>
+  <i class="icon icon-x-circle btn-mobile-close__icon hidden"></i>
+</span>
+
+<header class="panel-cover" style="background-image: url(/images/cover.jpg)">
+  <div class="panel-main">
+
+    <div class="panel-main__inner panel-inverted">
+    <div class="panel-main__content">
+        <a href="/" title="link to home of Achmad Gozali Ibrahim">
+          <img src="/images/profile.jpg" class="user-image" alt="My Profile Photo">
+          <h1 class="panel-cover__title panel-title">Achmad Gozali Ibrahim</h1>
+        </a>
+        <hr class="panel-cover__divider">
+        <p class="panel-cover__description"></p>
+        <hr class="panel-cover__divider panel-cover__divider--secondary">
+
+        <div class="navigation-wrapper">
+
+          <nav class="cover-navigation cover-navigation--primary">
+            <ul class="navigation">
+              <li class="navigation__item"><a href="/#blog" title="link to Achmad Gozali Ibrahim blog" class="blog-button">Blog</a></li>
+            </ul>
+          </nav>
+
+          <nav class="cover-navigation navigation--social">
+            <ul class="navigation">
+
+            
+
+            
+              <!-- Facebook -->
+              <li class="navigation__item">
+                <a href="http://fb.me/achmadgozali753" title="achmadgozali753 on Facebook" target="_blank">
+                  <i class="icon icon-social-facebook"></i>
+                  <span class="label">Facebook</span>
+                </a>
+              </li>
+            
+
+            
+              <!-- LinkedIn -->
+              <li class="navigation__item">
+                <a href="https://www.linkedin.com/in/achmad-gozali-32b840130" title="achmad-gozali-32b840130 on LinkedIn" target="_blank">
+                  <i class="icon icon-social-linkedin"></i>
+                  <span class="label">LinkedIn</span>
+                </a>
+              </li>
+            
+
+            
+              <!-- GitHub -->
+              <li class="navigation__item">
+                <a href="https://www.github.com/AchmadGozali8" title="AchmadGozali8 on GitHub" target="_blank">
+                  <i class="icon icon-social-github"></i>
+                  <span class="label">GitHub</span>
+                </a>
+              </li>
+            
+
+            
+              <!-- Email -->
+              <li class="navigation__item">
+                <a href="mailto:achmadg6@gmail.com" title="Email achmadg6@gmail.com" target="_blank">
+                  <i class="icon icon-mail"></i>
+                  <span class="label">Email</span>
+                </a>
+              </li>
+            
+
+            <!-- RSS -->
+            <li class="navigation__item">
+              <a href="/feed.xml" title="Subscribe" target="_blank">
+                <i class="icon icon-rss"></i>
+                <span class="label">RSS</span>
+              </a>
+            </li>
+
+            </ul>
+          </nav>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="panel-cover--overlay"></div>
+  </div>
+</header>
+
+
+    <div class="content-wrapper">
+      <div class="content-wrapper__inner">
+        <article class="post-container post-container--single">
+  <header class="post-header">
+    <div class="post-meta">
+      <time datetime="11 Mar 2017" class="post-meta__date date">11 Mar 2017</time>
+      
+      &#8226; <span class="post-meta__tags">on <a href="/tags/#django">django</a> <a href="/tags/#python">python</a> </span>
+      
+    </div>
+    <h1 class="post-title">How To Fix AttributeError: 'NoneType' object has no attribute '_meta'</h1>
+  </header>
+
+  <section class="post">
+    <p>A few hours ago i spend my time for debugging cause a shit error above, and theeennn after a long time, finally i can solved this problem, with a simple decorator from django.utils.encoding lib, i just added <code class="highlighter-rouge">python @python_2_unicode_compatible()</code></p>
+
+<p>Why this decorator can solve my problem??</p>
+
+<p>Actually, cause while you use <code class="highlighter-rouge">python def __str__(self)</code> it will not work on python 2 without a decorator, so it’s why you must use this decorators if you want to use python 2.</p>
+
+<p>As documentations mentioned:</p>
+<blockquote>
+  <p>A decorator that defines <strong>unicode</strong> and <strong>str</strong> methods under Python 2. Under Python 3 it does nothing.
+To support Python 2 and 3 with a single code base, define a <strong>str</strong> method returning text (use six.text_type() if you’re doing some casting) and apply this decorator to the class.</p>
+</blockquote>
+
+<h3 id="example">Example:</h3>
+<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="nd">@python_2_unicode_compatible</span>
+<span class="k">class</span> <span class="nc">Comments</span><span class="p">(</span><span class="n">StatusDeletedModel</span><span class="p">,</span> <span class="n">DateTimeHandlerModel</span><span class="p">,</span> <span class="n">StatusManager</span><span class="p">):</span>
+    <span class="n">user_id</span> <span class="o">=</span> <span class="n">models</span><span class="o">.</span><span class="n">ForeignKey</span><span class="p">(</span><span class="n">User</span><span class="p">,</span> <span class="n">on_delete</span><span class="o">=</span><span class="n">models</span><span class="o">.</span><span class="n">CASCADE</span><span class="p">,</span>
+                                <span class="n">db_column</span><span class="o">=</span><span class="s">'user_id'</span><span class="p">)</span>
+    <span class="n">post_id</span> <span class="o">=</span> <span class="n">models</span><span class="o">.</span><span class="n">ManyToManyField</span><span class="p">(</span><span class="s">'Posts'</span><span class="p">,</span> <span class="n">db_column</span><span class="o">=</span><span class="s">'post_id'</span><span class="p">)</span>
+    <span class="n">comment</span> <span class="o">=</span> <span class="n">models</span><span class="o">.</span><span class="n">CharField</span><span class="p">(</span><span class="n">max_length</span><span class="o">=</span><span class="mi">200</span><span class="p">)</span>
+    <span class="n">deleted</span> <span class="o">=</span> <span class="n">models</span><span class="o">.</span><span class="n">IntegerField</span><span class="p">(</span><span class="n">choices</span><span class="o">=</span><span class="n">DELETED_STATUS</span><span class="p">,</span> <span class="n">default</span><span class="o">=</span><span class="n">NOT_DELETED</span><span class="p">,</span>
+                                  <span class="n">db_column</span><span class="o">=</span><span class="s">'deleted'</span><span class="p">)</span>
+
+    <span class="k">class</span> <span class="nc">Meta</span><span class="p">:</span>
+        <span class="n">db_table</span> <span class="o">=</span> <span class="s">'comments'</span>
+
+    <span class="k">def</span> <span class="nf">__str__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="s">'{}'</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">comment</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">save</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">created_at</span> <span class="ow">is</span> <span class="bp">None</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">created_at</span> <span class="o">=</span> <span class="n">timezone</span><span class="o">.</span><span class="n">now</span><span class="p">()</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">updated_at</span> <span class="ow">is</span> <span class="ow">not</span> <span class="bp">None</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">updated_at</span> <span class="o">=</span> <span class="n">timezone</span><span class="o">.</span><span class="n">now</span><span class="p">()</span>
+        <span class="nb">super</span><span class="p">(</span><span class="n">Comments</span><span class="p">,</span> <span class="bp">self</span><span class="p">)</span><span class="o">.</span><span class="n">save</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+</code></pre>
+</div>
+
+  </section>
+  
+</article>
+
+
+
+      </div>
+
+      <footer class="footer">
+  <span class="footer__copyright">&copy; 2017 Achmad Gozali. All rights reserved.</span>
+</footer>
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script type="text/javascript" src="/js/main.js?1509674939893829928"></script>
+
+
+    </div>
+  </body>
+</html>
