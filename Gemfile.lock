@@ -242,7 +242,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  github-pages
+  github-pages (>= 104)
   jekyll
   jekyll-feed
   jekyll-seo-tag
