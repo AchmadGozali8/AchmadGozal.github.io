@@ -3,7 +3,7 @@
   
     
     <url>
-      <loc>https://achmadgozali8.github.io/2018/mysqld-not-listen-any-port-on-slackware/</loc>
+      <loc>http://localhost:4000/2018/mysqld-not-listen-any-port-on-slackware/</loc>
       
         <lastmod>2018-01-22T22:03:00+07:00</lastmod>
       
@@ -18,7 +18,7 @@
   
     
     <url>
-      <loc>https://achmadgozali8.github.io/2017/Django-Rest-Framework-Extend-User-Field/</loc>
+      <loc>http://localhost:4000/2017/Django-Rest-Framework-Extend-User-Field/</loc>
       
         <lastmod>2017-11-08T23:06:00+07:00</lastmod>
       
@@ -33,7 +33,7 @@
   
     
     <url>
-      <loc>https://achmadgozali8.github.io/2017/How-to-telnet-to-ppp-vpn-client/</loc>
+      <loc>http://localhost:4000/2017/How-to-telnet-to-ppp-vpn-client/</loc>
       
         <lastmod>2017-11-04T02:37:00+07:00</lastmod>
       
@@ -48,7 +48,7 @@
   
     
     <url>
-      <loc>https://achmadgozali8.github.io/2017/How-To-Fix-NoneType-object-has-no-attribute-_meta/</loc>
+      <loc>http://localhost:4000/2017/How-To-Fix-NoneType-object-has-no-attribute-_meta/</loc>
       
         <lastmod>2017-03-11T16:09:00+07:00</lastmod>
       
@@ -66,28 +66,9 @@
   
     
     <url>
-      <loc>https://achmadgozali8.github.io/feed.xml</loc>
+      <loc>http://localhost:4000/feed.xml</loc>
       
-        <lastmod>2019-01-19T11:35:28+07:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-  
-    
-  
-    
-    <url>
-      <loc>https://achmadgozali8.github.io/css/main.css</loc>
-      
-        <lastmod>2019-01-19T11:35:28+07:00</lastmod>
+        <lastmod>2019-01-19T11:41:39+07:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -104,9 +85,28 @@
   
     
     <url>
-      <loc>https://achmadgozali8.github.io/robots.txt</loc>
+      <loc>http://localhost:4000/css/main.css</loc>
       
-        <lastmod>2019-01-19T11:35:28+07:00</lastmod>
+        <lastmod>2019-01-19T11:41:39+07:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+  
+    
+  
+    
+    <url>
+      <loc>http://localhost:4000/robots.txt</loc>
+      
+        <lastmod>2019-01-19T11:41:39+07:00</lastmod>
       
       
         <changefreq>monthly</changefreq>

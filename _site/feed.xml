@@ -3,10 +3,10 @@
   <channel>
     <title>Achmad Gozali Ibrahim</title>
     <description>Python Developer, Django Developer, Freelancer Programmer.</description>
-    <link>https://achmadgozali8.github.io/</link>
-    <atom:link href="https://achmadgozali8.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 19 Jan 2019 11:35:28 +0700</pubDate>
-    <lastBuildDate>Sat, 19 Jan 2019 11:35:28 +0700</lastBuildDate>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Sat, 19 Jan 2019 11:41:39 +0700</pubDate>
+    <lastBuildDate>Sat, 19 Jan 2019 11:41:39 +0700</lastBuildDate>
     <generator>Jekyll v3.7.4</generator>
     
       <item>
@@ -21,8 +21,8 @@
 &lt;p&gt;so you will be get mysqld run in mysql daemon default port (3306)&lt;/p&gt;
 </description>
         <pubDate>Mon, 22 Jan 2018 22:03:00 +0700</pubDate>
-        <link>https://achmadgozali8.github.io/2018/mysqld-not-listen-any-port-on-slackware/</link>
-        <guid isPermaLink="true">https://achmadgozali8.github.io/2018/mysqld-not-listen-any-port-on-slackware/</guid>
+        <link>http://localhost:4000/2018/mysqld-not-listen-any-port-on-slackware/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/mysqld-not-listen-any-port-on-slackware/</guid>
         
         <category>mysql</category>
         
@@ -127,8 +127,8 @@ You can read &lt;a href=&quot;https://simpleisbetterthancomplex.com/tutorial/201
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 </description>
         <pubDate>Wed, 08 Nov 2017 23:06:00 +0700</pubDate>
-        <link>https://achmadgozali8.github.io/2017/Django-Rest-Framework-Extend-User-Field/</link>
-        <guid isPermaLink="true">https://achmadgozali8.github.io/2017/Django-Rest-Framework-Extend-User-Field/</guid>
+        <link>http://localhost:4000/2017/Django-Rest-Framework-Extend-User-Field/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/Django-Rest-Framework-Extend-User-Field/</guid>
         
         <category>django</category>
         
@@ -156,8 +156,8 @@ You can read &lt;a href=&quot;https://simpleisbetterthancomplex.com/tutorial/201
 &lt;/ol&gt;
 </description>
         <pubDate>Sat, 04 Nov 2017 02:37:00 +0700</pubDate>
-        <link>https://achmadgozali8.github.io/2017/How-to-telnet-to-ppp-vpn-client/</link>
-        <guid isPermaLink="true">https://achmadgozali8.github.io/2017/How-to-telnet-to-ppp-vpn-client/</guid>
+        <link>http://localhost:4000/2017/How-to-telnet-to-ppp-vpn-client/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/How-to-telnet-to-ppp-vpn-client/</guid>
         
         <category>telnet</category>
         
@@ -205,8 +205,8 @@ To support Python 2 and 3 with a single code base, define a &lt;strong&gt;str&lt
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 </description>
         <pubDate>Sat, 11 Mar 2017 16:09:00 +0700</pubDate>
-        <link>https://achmadgozali8.github.io/2017/How-To-Fix-NoneType-object-has-no-attribute-_meta/</link>
-        <guid isPermaLink="true">https://achmadgozali8.github.io/2017/How-To-Fix-NoneType-object-has-no-attribute-_meta/</guid>
+        <link>http://localhost:4000/2017/How-To-Fix-NoneType-object-has-no-attribute-_meta/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/How-To-Fix-NoneType-object-has-no-attribute-_meta/</guid>
         
         <category>django</category>
         
