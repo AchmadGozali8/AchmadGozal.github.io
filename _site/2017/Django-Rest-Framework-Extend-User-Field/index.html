@@ -55,7 +55,7 @@ You can read here why i use one to one relation, and you will get the difference
   <meta name="msapplication-TileImage" content="/images/favicons/mstile-144x144.png">
   <meta name="theme-color" content="#ffffff">
   
-  <link rel="stylesheet" href="/css/main.css?1516635206906498750">
+  <link rel="stylesheet" href="/css/main.css?1547867027310632000">
   <link rel="canonical" href="http://localhost:4000/2017/Django-Rest-Framework-Extend-User-Field/">
   <link rel="alternate" type="application/rss+xml" title="Achmad Gozali Ibrahim" href="/feed.xml">
 </head>
@@ -175,7 +175,7 @@ You can read <a href="https://simpleisbetterthancomplex.com/tutorial/2016/07/22/
 <p>It’s simple trick for extends users field on drf, ask me on facebook if you are confused.</p>
 
 <h2 id="models">Models</h2>
-<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="c"># -*- coding: utf-8 -*-</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># -*- coding: utf-8 -*-</span>
 <span class="kn">from</span> <span class="nn">__future__</span> <span class="kn">import</span> <span class="n">unicode_literals</span>
 
 <span class="kn">from</span> <span class="nn">django.db</span> <span class="kn">import</span> <span class="n">models</span>
@@ -209,11 +209,10 @@ You can read <a href="https://simpleisbetterthancomplex.com/tutorial/2016/07/22/
         <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">created_at</span> <span class="ow">is</span> <span class="ow">not</span> <span class="bp">None</span><span class="p">:</span>
             <span class="bp">self</span><span class="o">.</span><span class="n">updated_at</span> <span class="o">=</span> <span class="n">timezone</span><span class="o">.</span><span class="n">now</span><span class="p">()</span>
         <span class="nb">super</span><span class="p">(</span><span class="n">Profile</span><span class="p">,</span> <span class="bp">self</span><span class="p">)</span><span class="o">.</span><span class="n">save</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <h2 id="serializers">Serializers</h2>
-<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="kn">from</span> <span class="nn">django.contrib.auth.models</span> <span class="kn">import</span> <span class="n">User</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">from</span> <span class="nn">django.contrib.auth.models</span> <span class="kn">import</span> <span class="n">User</span>
 <span class="kn">from</span> <span class="nn">.models</span> <span class="kn">import</span> <span class="n">Profile</span>
 <span class="c"># from .models import Posts, Comments, Likes, Alarams</span>
 <span class="kn">from</span> <span class="nn">rest_framework.serializers</span> <span class="kn">import</span> <span class="n">HyperlinkedModelSerializer</span><span class="p">,</span> <span class="n">CharField</span>
@@ -241,11 +240,10 @@ You can read <a href="https://simpleisbetterthancomplex.com/tutorial/2016/07/22/
         <span class="c">#like **user_data above, **validated_data, for get all data, key:value formats(dict)</span>
         <span class="n">profile</span> <span class="o">=</span> <span class="n">Profile</span><span class="o">.</span><span class="n">objects</span><span class="o">.</span><span class="n">create</span><span class="p">(</span><span class="n">user</span><span class="o">=</span><span class="n">user</span><span class="p">,</span> <span class="o">**</span><span class="n">validated_data</span><span class="p">)</span>
         <span class="k">return</span> <span class="n">Profile</span>
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <h2 id="api">Api</h2>
-<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="kn">from</span> <span class="nn">rest_framework.viewsets</span> <span class="kn">import</span> <span class="n">ModelViewSet</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">from</span> <span class="nn">rest_framework.viewsets</span> <span class="kn">import</span> <span class="n">ModelViewSet</span>
 <span class="kn">from</span> <span class="nn">django.contrib.auth.models</span> <span class="kn">import</span> <span class="n">User</span>
 <span class="c"># from .models import Posts, Comments, Likes, Alarams</span>
 <span class="kn">from</span> <span class="nn">.serializers</span> <span class="kn">import</span> <span class="n">ProfileSerializer</span>
@@ -254,8 +252,7 @@ You can read <a href="https://simpleisbetterthancomplex.com/tutorial/2016/07/22/
 <span class="k">class</span> <span class="nc">ProfileViewSet</span><span class="p">(</span><span class="n">ModelViewSet</span><span class="p">):</span>
     <span class="n">queryset</span> <span class="o">=</span> <span class="n">Profile</span><span class="o">.</span><span class="n">objects</span><span class="o">.</span><span class="nb">all</span><span class="p">()</span>
     <span class="n">serializer_class</span> <span class="o">=</span> <span class="n">ProfileSerializer</span>
-</code></pre>
-</div>
+</code></pre></div></div>
 
   </section>
   
@@ -266,11 +263,11 @@ You can read <a href="https://simpleisbetterthancomplex.com/tutorial/2016/07/22/
       </div>
 
       <footer class="footer">
-  <span class="footer__copyright">&copy; 2018 Achmad Gozali. All rights reserved.</span>
+  <span class="footer__copyright">&copy; 2019 Achmad Gozali. All rights reserved.</span>
 </footer>
 
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script type="text/javascript" src="/js/main.js?1516635206906498750"></script>
+<script type="text/javascript" src="/js/main.js?1547867027310632000"></script>
 
 
     </div>
