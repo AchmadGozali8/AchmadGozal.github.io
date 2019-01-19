@@ -243,6 +243,10 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
+  jekyll
+  jekyll-feed
+  jekyll-seo-tag
+  jekyll-sitemap
 
 BUNDLED WITH
    1.16.4

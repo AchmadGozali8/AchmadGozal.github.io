@@ -68,7 +68,7 @@
     <url>
       <loc>http://localhost:4000/feed.xml</loc>
       
-        <lastmod>2019-01-19T10:03:47+07:00</lastmod>
+        <lastmod>2019-01-19T10:48:17+07:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -87,7 +87,7 @@
     <url>
       <loc>http://localhost:4000/css/main.css</loc>
       
-        <lastmod>2019-01-19T10:03:47+07:00</lastmod>
+        <lastmod>2019-01-19T10:48:17+07:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -100,6 +100,21 @@
   
     
   
+    
+  
+    
+    <url>
+      <loc>http://localhost:4000/robots.txt</loc>
+      
+        <lastmod>2019-01-19T10:48:17+07:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
     
   
 </urlset>
